@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Simple calculator</h1>
+
+        <input class="input1" type="number">
+        <input class="input2" type="number">
+
+        <div class="buttons">
+            <button class="btn btn--add">Add</button>
+            <button class="btn btn--subtract">Subtract</button>
+            <button class="btn btn--multiply">Multiply</button>
+            <button class="btn btn--divide">Divide</button>
+            <button class="btn btn--clear">Clear</button>
+        </div>
+
+        <div class="result">Sum: <span class="sum">0</span></div>
+    </div>
+
+    <div class="container">
+        <h1 class="a_title">Calculator</h1>
+
+        <div class="calculator-shape">
+            <div class="display-container">
+                <div class="display">0</div>
+                <button class="a_clear">C</button>
+            </div>            
+    
+            <div class="buttons-grid">
+                <button class="a_btn btn7">7</button>
+                <button class="a_btn btn8">8</button>
+                <button class="a_btn btn9">9</button>
+                <button class="a_btn btn-divide" data-value="/" data-type="operator">/</button>
+                <button class="a_btn btn4">4</button>
+                <button class="a_btn btn5">5</button>
+                <button class="a_btn btn6">6</button>
+                <button class="a_btn btn-multiply" data-value="*" data-type="operator">*</button>
+                <button class="a_btn btn1">1</button>
+                <button class="a_btn btn2">2</button>
+                <button class="a_btn btn3">3</button>
+                <button class="a_btn btn-subtract" data-value="-" data-type="operator">-</button>
+                <button class="a_btn btn0">0</button>
+                <button class="a_btn">,</button>
+                <button class="a_btn btn-equal">=</button>
+                <button class="a_btn btn-add" data-value="+" data-type="operator">+</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="simple.js"></script>
+    <script src="advanced.js"></script>
+</body>
+</html>
